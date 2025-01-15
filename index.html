@@ -25,11 +25,13 @@
                 <!-- Team Size -->
                 <div class="form-section">
                     <label for="teamSize">Team Size</label>
-                    <select id="teamSize" name="teamSize">
+                    <select id="teamSize" name="teamSize" required>
+                        <option value="">Select Team Size</option>
                         <option value="4">4 Members</option>
                         <option value="5">5 Members</option>
                         <option value="6">6 Members</option>
                     </select>
+                    <span class="error" id="teamSizeError"></span>
                 </div>
 
                 <!-- Team Members -->
