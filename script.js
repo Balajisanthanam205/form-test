@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropZone = document.getElementById('dropZone');
 
     // Update this URL with your deployed Google Apps Script URL
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbw11i59ho0XAQ8oL4ldcGGCdoY3YUXtLWhAIyVo2Zs89QX695DQn9Q8LBA0alXCqAi7/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxIebjLxJYOMvyPZu64EwCu0o5KTBlGgs5nqwZfpDWncckmqNTfAyyjKZjlo68xvg5Y/exec';
 
     // Validation patterns
     const patterns = {
